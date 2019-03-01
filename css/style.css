@@ -1,0 +1,61 @@
+.navbar-brad img {
+    width: 230px !important;
+}
+
+body {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.navbar-nav li {
+    padding-right: 10px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+
+.carouselka {
+
+}
+
+.Tma {
+    color: rgb(225,230,237);
+    font-size: 1.3em;
+
+
+}
+
+iframe {
+  width:280px !important;
+}
+
+
+
+.cards {
+ margin: 30px 25px 30px 25px !important;
+ flex: none !important;
+ float: left !important;
+
+}
+
+.mod {
+  display: inline-block;
+  margin: 5px 5px 5px 5px !important;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding:0px 0px 0px 0px;
+}
+
+.card:hover{
+    border: 1px solid rgb(33,175,193) !important;
+
+
+
+}
+span p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    
+}

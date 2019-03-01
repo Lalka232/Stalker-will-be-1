@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>STALKER-COM1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brad" href="index.html"><img class="navbar" src="img/logo.png" alt="logo"></a><!--Logo-->
+            <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navnar"><!--Button for a Phones-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navnar">
+                <ul class="navbar-nav ml-auto"><!--Navigation-->
+                    <li class="nav-item"><a href="index.html" class="nav-link">Главная</a></li>
+                    <li class="nav-item"><a href="discution.html" class="nav-link">Обсуждения</a></li>
+                    <li class="nav-item active"><a href="files.html" class="nav-link">Моды</a></li>
+                    <li class="nav-item"><a href="about us.html" class="nav-link">О нас</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modal-reg"><img src="img/Account.png" alt="acc"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modal-see"><img src="img/see.png" alt="acc"></a></li>
+                </ul>
+                <!--<form class="form-inline my-2 my-lg-0">
+                    <input type="text" class="form-control mr-sm-2" placeholder="Поиск" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0">Поиск</button>
+                </form>-->
+            </div>
+        </div>
+    </nav>
+    <!--Reg-->
+    <div class="row text-center">
+    <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+    <div class="modal fade" id="modal-reg" tabindex="1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Войти</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                      <div class="form-group">
+                          <label for="exampleInputEmail">Почта</label>
+                          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Почта">
+                          <small id="emailHelp" class="form-text text-muted">Введите почту</small>
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleInputPass">Пороль</label>
+                          <input type="password" class="form-control" placeholder="Пороль" id="exampleInputpass">
+                          <small class="form-text text-muted" id="passHelp">Пороль должен содержать минимум 10 символов</small>
+                      </div>
+                      <div class="form-check">
+                          <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Запомнить меня
+                          </label>
+                      </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                    <button style="margin-right:40px;" type="button" class="btn btn-success" href="#registr">Регистрация</a>
+                    <button class="btn btn-primary">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!--Search-->
+    <div class="row text-center">
+    <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+    <div class="modal fade" id="modal-see" tabindex="1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Поиск</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <form class="form-inline my-2 my-lg-0"><!--Search-->
+                      <input type="text" class="form-control mr-sm-2" placeholder="Поиск" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0">Поиск</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+<!--Image1-->
+<div class="modal fade" style="padding-left:16px !important;padding-top:16px;" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="max-width: 1920px;margin: 0rem auto;" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: .4rem;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="img/1screen.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Image2 -->
+<div class="modal fade" style="padding-left:16px !important;padding-top:16px;" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="max-width: 1920px;margin: 0rem auto;" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: .4rem;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="img/2screen.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- image3 -->
+<div class="modal fade" style="padding-left:16px !important;padding-top:16px;" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="max-width: 1920px;margin: 0rem auto;" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="padding: .4rem;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid" src="img/3screen.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <section name="Header">
+        <div style="padding:0px 0px 0px 0px !important;" class="container-fluid">
+        <div style="padding:0px 0px 0px 0px !important; width: 100% !important; margin-left: 0px !important;" class="row">
+            <div style="padding-right: 0px !important; padding-left: 0px !important;" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img  class="img-fluid" src="img/Anomaly-file.jpg" alt="hgh">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="mt-4" name="screenshots">
+        <div style="padding:0px 0px 0px 0px !important;" class="container-fluid">
+            <div style="padding:0px 0px 0px 0px !important; width: 100% !important; margin-left: 0px !important;" class="row justify-content-center text-center">
+              <div style="float:left !important; padding: auto !important;" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-5 mt-2">
+                    <h2 style="font-size: 2.1em;">Скриншоты</h2>
+              </div>
+
+                <div style="float:left !important; padding: 10px !important;" class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal1"><div  class="card bg-dark text-white">
+                      <img class="card-img img-fluid" src="img/1screen.jpg" alt="Card image">
+                    </div></a>
+                </div>
+
+                <div style="float:left !important; padding: 10px !important;" class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal2"><div class="card bg-dark text-white">
+                      <img class="card-img img-fluid" src="img/2screen.jpg" alt="Card image">
+                    </div></a>
+                </div>
+
+                <div style="float:left !important; padding: 10px !important;" class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal3"><div  class="card bg-dark text-white">
+                      <img  class="card-img img-fluid" src="img/3screen.jpg"  alt="Card image">
+                    </div></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section name="description" class="mt-5">
+        <div style="padding:0px 0px 0px 0px !important;" class="container-fluid">
+            <div style="padding:0px 0px 0px 0px !important; width: 100% !important; margin-left: 0px !important;" class="row justify-content-center text-left">
+
+                <div style="float:right;" class="col-12 col-sm-12 col-md-7 col-lg-8 col-xl-8">
+                    <h3>Описание:</h3>
+                    <b>Платформа:</b> <a href="/go?https://stalkerportaal.ru/load/140-1-0-2150" rel="nofollow" target="_blank">Call of Chernobyl</a> + <a href="/go?https://stalkerportaal.ru/load/128-1-0-2601" rel="nofollow" target="_blank">Last Day 1.3</a><br>
+                    <b>Разработчик:</b> Anomaly Developers<br>
+                    <b>Год выпуска:</b> 2018<br>
+                    <b>Обновленный русификатор:</b> <a href="/go?https://drive.google.com/drive/folders/1OM1NUC9o-P7S9ynaZPfSibjrDfqT9TRc" rel="nofollow" target="_blank" title="https://drive.google.com/drive/folders/1OM1NUC9o-P7S9ynaZPfSibjrDfqT9TRc">Google Drive</a>
+                    <hr>
+                    <p>Основой мода послужил Last Day 1.3. Проект от иностранных разработчиков.
+                         S.T.A.L.K.E.R. Anomaly - это модпак основанный на 64-разрядной версии движка Open X-Ray на основе Last Day 1.3 с множеством дополнений и пользовательскими аддонами.
+                          Мод довольно требователен к системе, так как использует обновленный 64-х битный движок, но в то же время игра может использовать больше оперативной памяти чем старый 32-битный движок.
+                         Мод продолжает расширятся и в него добавляются различные новые фичи, сохраняя при этом высокий уровень качества и реиграбельность.
+                    </p>
+                </div>
+
+                <div style="float:right;" class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4">
+                    <h3>Системные требования:</h3>
+                    <span>
+                    <p><strong>Операционная система:</strong> Windows 7 /Windows 8.1 / Windows 10</p>
+                    <p><strong>Процессор:</strong> Intel Core i3</p>
+                    <p><strong>Оперативная память:</strong> 4 Гб</p>
+                    <p><strong>Видеокарта:</strong> 1/2ГБ / nVIDIA® GeForce™ / ATI Radeon®</p>
+                    <p><strong>Звуковая карта:</strong> Звуковое устройство, совместимое с DirectX® 9.0с</p>
+                    <p><strong>Свободное место на жестком диске:</strong> 19 Гб</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 mb-5" name="download">
+
+        <div style="padding:0px 0px 0px 0px !important;" class="container-fluid">
+            <div style="padding:0px 0px 0px 0px !important; width: 100% !important; margin-left: 0px !important;" class="row justify-content-center text-left">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h4>Скачать:</h4>
+                    <a target="_blank" class="btn btn-secondary m-3" href="//stalkerportaal.ru/go?https://yadi.sk/d/O8dWq20C0V9vWg" itemprop="downloadUrl"><img style="width: 16px; height:16px; margin-right: 4px;" src="img/disk.jpg" alt="">Яндекс диск</a>
+                    <a target="_blank" class="btn btn-secondary m-3" href="//stalkerportaal.ru/go?https://yadi.sk/d/O8dWq20C0V9vWg" itemprop="downloadUrl"><img style="width: 20px; height:20px; margin-right: 4px;" src="img/Torrent.jpg" alt="">Torrent</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

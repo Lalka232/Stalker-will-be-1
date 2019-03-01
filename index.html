@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Stalker com</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body  data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brad" href="index.html"><img class="navbar" src="img/logo.png" alt="logo"></a><!--Logo-->
+            <button type="button" name="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navnar"><!--Button for a Phones-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navnar">
+                <ul class="navbar-nav ml-auto"><!--Navigation-->
+                    <li class="nav-item active"><a href="#" class="nav-link">Главная</a></li>
+                    <li class="nav-item"><a href="discution.html" class="nav-link">Обсуждения</a></li>
+                    <li class="nav-item"><a href="files.html" class="nav-link">Моды</a></li>
+                    <li class="nav-item"><a href="about us.html" class="nav-link">О нас</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modal-reg"><img src="img/Account.png" alt="acc"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modal-see"><img src="img/see.png" alt="acc"></a></li>
+                </ul>
+                <!--<form class="form-inline my-2 my-lg-0">
+                    <input type="text" class="form-control mr-sm-2" placeholder="Поиск" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0">Поиск</button>
+                </form>-->
+            </div>
+        </div>
+    </nav>
+    <!--Reg-->
+    <div class="row text-left">
+    <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+    <div class="modal fade" id="modal-reg" tabindex="1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Войти</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                      <div class="form-group">
+                          <label for="exampleInputEmail">Почта</label>
+                          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Почта">
+                          <small id="emailHelp" class="form-text text-muted">Введите почту</small>
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleInputPass">Пороль</label>
+                          <input type="password" class="form-control" placeholder="Пороль" id="exampleInputpass">
+                          <small class="form-text text-muted" id="passHelp">Пороль должен содержать минимум 10 символов</small>
+                      </div>
+                      <div class="form-check">
+                          <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input">
+                              Запомнить меня
+                          </label>
+                      </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                    <button style="margin-right:40px;" type="button" class="btn btn-success" href="#registr">Регистрация</a>
+                    <button class="btn btn-primary">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!--Search-->
+    <div class="row text-left">
+    <div class="col-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+    <div class="modal fade" id="modal-see" tabindex="1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Поиск</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <form class="form-inline my-2 my-lg-0"><!--Search-->
+                      <input type="text" class="form-control mr-sm-2" placeholder="Поиск" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0">Поиск</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <section name="Carousel"><!--height:670px;-->
+        <div style="padding:0px 0px 0px 0px !important ;" class="container-fluid">
+            <!--<div style="height: auto !important;" class="row">-->
+            <div style="padding-right: 0px !important;padding-left: 0px !important;" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div  class="carousel slide" data-ride="carousel" id="slides">
+                <ul class="carousel-indicators">
+                  <li class="active" data-target="#slides" data-slide-to="0">
+                    </li>
+                  <li  data-target="#slides" data-slide-to="1">
+                    </li>
+                  <li  data-target="#slides" data-slide-to="2">
+                    </li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="img/сталкер1.jpg" alt="st1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/сталкер2.jpg" alt="st1">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="img/сталкер3.jpg" alt="st1">
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section name="The popular mods">
+        <div style="margin-top:20px; background: url('img/bg-fluid.jpg'); background-repeat:no-repeat; padding-right:5px; padding-left:5px; " class="container-fluid">
+            <div style="margin-bottom:30px !important;" class="container">
+              <div class="row text-center justify-content-center">
+                  <div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                      <h1 style="font-size: 30px !important;color:white; padding-top:30px; padding-left:5px;padding-right:5px;">Лучшие моды на данный момент!</h1></div></div></div>
+            <div style="padding: 0px 10px 0px 10px !important;" class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <iframe src="https://youtube.com/embed/DWU_Cc-5cj0" frameborder="0"></iframe><pre><span class="Tma">S.T.A.L.K.E.R.
+ Последний Сталкер</span></pre></div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <iframe src="https://youtube.com/embed/ejTf8WUytGQ" frameborder="0"></iframe><pre><span class="Tma">Это точно не сталкер 2???
+Лучший мод на сталкер 2019</span></pre></div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <iframe src="https://youtube.com/embed/AFfFWBFJTmM" frameborder="0"></iframe><pre><span class="Tma">S.T.A.L.K.E.R. Dead Air #1.
+ Атмосферное Выживание</span></pre></div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <iframe src="https://youtube.com/embed/_6W1W3PHtCg" frameborder="0"></iframe><pre><span class="Tma">Обзор S.T.A.L.K.E.R.:
+ Call Of Chernobyl</span></pre></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer style="max-height: 400px">
+        <div style=" background-color: #bbc0c3; padding-right:0px; padding-left:0px; max-height: 400px;" class="container-fluid">
+            <div style="padding:0px 0px 0px 0px !important; width: 100% !important; margin-left: 0px !important;" class="row justify-content-center text-left">
+                <div style="padding:0px 0px 0px 0px !important;" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div style="float:left; width:auto; padding: 0px 0px 0px 0px !important;" class="container m-3">
+                    <span style="color: black;"><h4  class="p-2">Мы в сетях</h4></span>
+                    <a class="m-2" href="#"><img width="32px" height="32px"  src="img/twitter.png" alt="twitter"></a>
+                    <a class="m-2" href="#"><img width="32px" height="32px"  src="img/VK_Logo.png" alt="twitter"></a>
+                    </div>
+                    <div style=" float:left; width:auto; padding: 0px 0px 0px 0px !important;" class="container m-3">
+                    <span style="color: black;"><h4  class="p-2">Партнеры</h4></span>
+                    <span class="p-2"><a href="https://ap-pro.ru"><b>AP</b>-<b class="needsclick">PRO.ru</b></a></span>
+                    </div>
+                    <div style="width: 100%; float:left; padding: 0px 0px 0px 0px !important; " class="container mt-5 text-center">
+                    <h6 style="font-size: 1.1em">2020</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script>
+        $('#modal-reg').modal({
+            keyboard: false,
+            backdrop: "static"
+        })
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
